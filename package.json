@@ -65,6 +65,11 @@
                 "key": "shift+enter",
                 "when": "editorTextFocus && inputFocus && notebookEditorFocused || notebookCellListFocused && notebookCellType == 'code'",
                 "command": "notebook.cell.executeAndSelectBelow"
+            },
+            {
+                "key": "U",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "undo"
             }
         ]
     }
