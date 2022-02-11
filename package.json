@@ -1,0 +1,71 @@
+{
+    "name": "jupyter-vim-keymap",
+    "displayName": "Jupyter Vim Keymap",
+    "description": "Vim Keymaps for Jupyter Extension",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "I",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.edit"
+            },
+            {
+                "key": "K",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "list.focusUp"
+            },
+            {
+                "key": "J",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "list.focusDown"
+            },
+            {
+                "key": "D D",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.delete"
+            },
+            {
+                "key": "shift+O",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.insertCodeCellAboveAndFocusContainer"
+            },
+            {
+                "key": "O",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.insertCodeCellBelowAndFocusContainer"
+            },
+            {
+                "key": "Y",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.copy"
+            },
+            {
+                "key": "X",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.cut"
+            },
+            {
+                "key": "P",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.paste"
+            },
+            {
+                "key": "ctrl+enter",
+                "when": "editorTextFocus && inputFocus && notebookEditorFocused || notebookCellListFocused",
+                "command": "notebook.cell.executeAndFocusContainer"
+            },
+            {
+                "key": "shift+enter",
+                "when": "editorTextFocus && inputFocus && notebookEditorFocused || notebookCellListFocused && notebookCellType == 'code'",
+                "command": "notebook.cell.executeAndSelectBelow"
+            }
+        ]
+    }
+}
