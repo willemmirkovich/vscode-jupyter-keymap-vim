@@ -1,13 +1,17 @@
-# README
-## This is the README for your extension "jupyter-vim-keymap"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Jupyter Vim Keymap
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+This is an extension to incorporate common [Vim](https://www.vim.org/) keymaps while editing 
+jupyter notebooks in VSCode. 
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Meant to work alongside the great extension that allows you to edit jupyter 
+notebooks in VSCode [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 
-**Enjoy!**
+This extension is intended to be used alongside the other great extension [VSCode Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+
+## Contributing
+
+<mark>TODO: </mark> Fill in
+
+## Planned Features
+
+1. Work with VSCode Vim Command Mode
