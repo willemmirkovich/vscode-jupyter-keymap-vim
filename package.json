@@ -27,6 +27,16 @@
                 "command": "list.focusDown"
             },
             {
+                "key": "G G",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "list.focusFirst"
+            },
+            {
+                "key": "shift+G",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "list.focusLast"
+            },
+            {
                 "key": "D D",
                 "when": "notebookEditorFocused && !inputFocus",
                 "command": "notebook.cell.delete"
