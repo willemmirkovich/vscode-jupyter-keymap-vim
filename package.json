@@ -3,6 +3,7 @@
     "displayName": "Jupyter Vim Keymap",
     "description": "Vim Keymaps for Jupyter Extension",
     "version": "0.0.1",
+    "publisher": "willemmirkovich",
     "engines": {
         "vscode": "^1.64.0"
     },
