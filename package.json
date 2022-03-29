@@ -4,8 +4,14 @@
     "description": "Vim Keymaps for Jupyter Extension",
     "version": "0.0.1",
     "publisher": "willemmirkovich",
+    "license": "MIT",
     "engines": {
+        "license": "",
         "vscode": "^1.64.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/willemmirkovich/vscode-jupyter-keymap-vim"
     },
     "categories": [
         "Keymaps"
