@@ -19,3 +19,6 @@ Keymaps inspired by [jupyter-vim-binding](https://github.com/lambdalisue/jupyter
 1. Work with VSCode Vim Command Mode
 
 2. Fix/Addition of "o" keymap for adding cell below
+
+    - fixed with addition of `!notebookEditorFocused` to when clause of 
+    `list.toggleExpand` key binding for vim

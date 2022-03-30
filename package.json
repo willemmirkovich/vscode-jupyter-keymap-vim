@@ -55,7 +55,7 @@
             },
             {
                 "key": "O",
-                "when": "notebookEditorFocused && !inputFocus",
+                "when": "listFocus && notebookEditorFocused && !inputFocus",
                 "command": "notebook.cell.insertCodeCellBelowAndFocusContainer"
             },
             {
